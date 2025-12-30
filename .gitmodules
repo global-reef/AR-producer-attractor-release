@@ -1,0 +1,6 @@
+[submodule "AR-producer"]
+	path = AR-producer
+	url = https://github.com/global-reef/AR-producer.git
+[submodule "AR-attractor"]
+	path = AR-attractor
+	url = https://github.com/global-reef/AR-attractor.git
