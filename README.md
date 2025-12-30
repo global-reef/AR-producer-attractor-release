@@ -72,13 +72,18 @@ Repository: https://github.com/global-reef/AR-producer
 ## Reproducing the analyses
 
 ### Clone the wrapper repository (including submodules)
+
+```
 git clone --recurse-submodules https://github.com/global-reef/AR-producer-attractor-release.git
-cd AR-producer-attractor-release 
+cd AR-producer-attractor-release
+
+```
 
 ---
 
-## Run analyses
+## ✨ Run analyses
 Each submodule is a self-contained R project and should be run independently.
+
 ### AR-producer
 Open AR-producer/AR_Producer.Rproj in RStudio
 Run 00_RUN.R to assemble cleaned datasets
