@@ -85,17 +85,25 @@ cd AR-producer-attractor-release
 Each submodule is a self-contained R project and should be run independently.
 
 ### AR-producer
+
+```
 Open AR-producer/AR_Producer.Rproj in RStudio
 Run 00_RUN.R to assemble cleaned datasets
 Execute scripts 01_* through 07_* sequentially
 Figures, tables, and model outputs are written to the outputs/ directory
 
+```
+
 ### AR-attractor
+
+```
 Open AR-attractor/AR_Attractor.Rproj in RStudio
 Run 01.CLEAN.R to assemble cleaned datasets
 Execute scripts 02.* through 06.* sequentially
 Figures, tables, and model outputs are written to the outputs/ directory
 Refer to the individual README files within each submodule for detailed dependencies and script descriptions.
+
+```
 
 
 Notes
