@@ -16,13 +16,14 @@ The wrapper exists to provide a **single, citable, reproducible Zenodo release**
 
 ## 📁 Repository structure 
 
+```
 AR-producer-attractor-release/
 ├── AR-producer/        # git submodule (production-focused analyses)
 ├── AR-attractor/       # git submodule (attraction-focused analyses)
 ├── README.md           # this file
 ├── CITATION.cff        # citation metadata for Zenodo
 └── LICENSE
-
+``` 
 
 Each submodule is pinned to a specific commit or tag at the time of release.
 
